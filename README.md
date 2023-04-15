@@ -10,3 +10,4 @@
 ## future updates
 - [+] update the onion website
 - [+] prettify the website
+- [+] professionalize the site
