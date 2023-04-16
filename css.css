@@ -24,11 +24,12 @@ body {
     text-align: center;
 }
 
+/*
 canvas {
     border:1px solid #000000;
     padding: 1%;
 }
-
+*/
 header {
     text-align: right;
 }
