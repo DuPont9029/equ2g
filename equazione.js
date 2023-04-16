@@ -6,11 +6,6 @@ function inviailform()
     b = parseFloat(document.getElementById("input2").value);
     c = parseFloat(document.getElementById("input3").value); // dichiarazione di variabili
 
-    if (a === null)
-    {
-         console.alert("inserisci il coefficiente (a) di [x2]");
-       
-    }
 
 
     Delta = b*b-4*a*c; // calcolo
