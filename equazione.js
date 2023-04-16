@@ -1,4 +1,4 @@
-var a, b, c, Delta, x1, x2;
+var a, b, c, Delta, x1, x2, res;
 
 function inviailform()
 {
@@ -97,4 +97,17 @@ function copytextx2() {
   
     // Alert the copied text
     alert("Hai copiato il risultato 2: " + x2);
+}
+
+
+
+
+
+
+
+function divide() {
+
+    var diva = document.getElementById("div1").value;
+    var divb = document.getElementById("div2").value;
+    res = diva / divb;
 }
