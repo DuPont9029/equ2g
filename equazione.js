@@ -5,6 +5,14 @@ function inviailform()
     a = parseFloat(document.getElementById("input1").value); // la variabile a è il risultato parsato a intero del risultato del form input1
     b = parseFloat(document.getElementById("input2").value);
     c = parseFloat(document.getElementById("input3").value); // dichiarazione di variabili
+
+    if (a === null)
+    {
+         console.alert("inserisci il coefficiente (a) di [x2]");
+       
+    }
+
+
     Delta = b*b-4*a*c; // calcolo
     if (Delta < 0)
     {

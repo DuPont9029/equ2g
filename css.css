@@ -19,6 +19,24 @@
     color: #008CBA;
 }
 
+
 body {
     text-align: center;
+}
+
+canvas {
+    border:1px solid #000000;
+    padding: 1%;
+}
+
+footer {
+    text-align: right;
+    
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    overflow: hidden;
 }
